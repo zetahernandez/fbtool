@@ -9,8 +9,9 @@ A command line tool to manage Facebook applications
 Installing
 __________
 
-::
-   $ pip3 install facebook-apps-tool
+#. Install the package
+   ::
+      $ pip3 install facebook-apps-tool
 
 
 Config
@@ -18,7 +19,8 @@ _____
 
 #. Create a config file on `~/.config/fbtool/config.yaml` and list your applications with the credentials:
 
- .. code-block:: yaml
+ .. code-block::
+
      apps:
        my_great_app:
          app_id: 123123123123
