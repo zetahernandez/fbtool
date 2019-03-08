@@ -13,7 +13,7 @@ tests_require = ["coveralls", "pytest", "pytest-cov"]
 
 setup(
     name="facebook-apps-tool",
-    version="0.0.1",
+    version="0.0.2",
     description="Facebook Apps Tools",
     long_description=readme,
     license="MIT",
