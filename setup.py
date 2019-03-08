@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 readme = open("README.rst").read()
 
 install_requires = [
-    "Click",
-    "pyyaml",
-    "facebook-py-sdk",
+    "Click~=7.0",
+    "PyYAML~=3.13",
+    "facebook-py-sdk~=1.1",
     "six",
     'typing;python_version<"3.5"',
 ]
