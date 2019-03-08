@@ -2,12 +2,18 @@ from setuptools import setup, find_packages
 
 readme = open("README.rst").read()
 
-install_requires = ["Click", "pyyaml", "facebook-py-sdk", "six", 'typing;python_version<"3.5"']
+install_requires = [
+    "Click",
+    "pyyaml",
+    "facebook-py-sdk",
+    "six",
+    'typing;python_version<"3.5"',
+]
 tests_require = ["coveralls", "pytest", "pytest-cov"]
 
 setup(
     name="facebook-apps-tool",
-    version='0.0.1',
+    version="0.0.1",
     description="Facebook Apps Tools",
     long_description=readme,
     license="MIT",
