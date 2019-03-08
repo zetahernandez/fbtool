@@ -21,7 +21,7 @@ setup(
     author_email="zetahernandez@gmail.com",
     url="https://github.com/zetahernandez/facebook_apps_tool",
     packages=find_packages(),
-    install_requires=["facebook-py-sdk", "six", 'typing;python_version<"3.5"'],
+    install_requires=install_requires,
     tests_require=tests_require,
     extras_require={"testing": tests_require},
     classifiers=[
